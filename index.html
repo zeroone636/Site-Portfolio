@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт портфолио Рудаев Ярослав П-11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="top">
+        <div class="container nav-container">
+            <a href="#top" class="logo">МИДИС</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">О себе</a></li>
+                    <li><a href="#works" class="nav-link">Мои работы</a></li>
+                    <li><a href="#socials" class="nav-link">Соцсети</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <h2 class="subtitle">О себе:</h2>
+            <div class="about-text">
+                <h1>Привет! Я Верстальщик сайтов.</h1>
+                <p>Создаю удобные и красивые сайты, приложения и цифровые продукты. Люблю минимализм и функциональность.</p>
+            </div>
+        </section>
+
+        <section id="works">
+            <div class="container">
+                <h2 class="section-title">Мои работы</h2>
+                
+                <div class="portfolio-grid">
+                    <article class="portfolio-item">
+                        <div class="img-wrapper">
+                            <a href="http://denmami2025midis.tilda.ws/"><img src="img/DenMamiMAIN.png" alt="Основная страница сайта 'День Мамы'" class="portfolio-img"></a>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Сайт-сюрприз. Основная страница</h3>
+                            <p>Сайт: Подарок ко дню матери.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <div class="img-wrapper">
+                            <img src="img/DenMamiIND.png" alt="Индивидуальная страница сайта 'День Мамы'" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Сайт-сюрприз. Индивидуальная страница</h3>
+                            <p>Сайт: Подарок ко дню матери.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <div class="img-wrapper">
+                            <img src="img/primerPP.png" alt="Food Market" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Food Market</h3>
+                            <p>Сайт здорового питания и рецептов</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <div class="img-wrapper">
+                            <img src="img/ZHKmelody.png" alt="ЖК Мелодия" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>ЖК "Мелодия"</h3>
+                            <p>Корпоративный сайт застройщика</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <div class="img-wrapper">
+                            <img src="img/primerAnketa.png" alt="Sound Pro" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Портфолио v1</h3>
+                            <p>Сайт-портфолио и анкета для заявки</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="container">
+            <h2 class="section-title">Контакты</h2>
+            
+            <div class="contacts-wrapper">
+                <div class="contacts-info">
+                    <div class="contact-item">
+                        <span class="contact-label">Эл. почта</span>
+                        <a href="mailto:example@gmail.com" class="contact-value">zeroone_commerce@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Телефон</span>
+                        <a href="tel:+78005553535" class="contact-value">+7 (800) 555 35-35</a>
+                    </div>
+                </div>
+    <div class="contacts-form">
+                        <h3 class="form-title">Оставить заявку</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-input" placeholder="Ваше имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-input" placeholder="Ваш Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-textarea" rows="4" placeholder="Сообщение"></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    <footer id="socials">
+        <div class="container footer-container">
+            <div class="copyright">
+                &copy; 2025 Все права защищены
+            </div>
+            
+            <div class="logo-footer">МИДИС</div>
+
+            <div class="social-icons">
+                <a href="https://github.com/zeroone636" class="social-icon" aria-label="Github">
+                    <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+                <a href="https://t.me/zeroone_commerce" class="social-icon" aria-label="Telegram">
+                    <svg viewBox="0 0 24 24"><path d="M21.928 2.528c-.333-.311-.969-.321-1.355-.138l-18.992 9.077c-.571.267-.621.821-.116 1.109l5.084 2.924 1.745 5.564c.231.738 1.111.836 1.487.185l2.454-4.246 5.378 4.025c.613.46 1.503.111 1.649-.646l3.525-16.711c.119-.567-.29-1.055-.859-1.143zm-16.635 9.778l14.93-7.141-11.968 10.158-2.962-3.017zm7.34 7.641l-1.399-4.464 8.783-7.452-9.66 8.216 2.276 3.7z"/></svg>
+                </a>
+                <a href="https://vk.com/btrdkefir4ek" class="social-icon" aria-label="VK">
+                    <svg viewBox="0 0 24 24"><path d="M21.543 6.498c.029-.438-.162-.648-.529-.648h-2.545c-1.859 0-2.711 1.003-3.167 2.053 0 0-.374.896-.91 1.671-.146.208-.22.285-.302.285-.098 0-.256-.118-.256-.708v-3.3c0-.589-.17-.852-.663-.852h-3.659c-.366 0-.587.279-.587.545 0 .571.848.704.935 2.315v3.498c0 .766-.135.908-.432.908-.795 0-2.73-2.978-3.874-6.384-.223-.655-.447-.879-1.051-.879h-2.9c-.649 0-.78.307-.78.646 0 .603.774 3.597 3.606 7.554 1.888 2.711 4.542 4.183 6.96 4.183 1.455 0 1.636-.327 1.636-.889v-2.05c0-.663.14-.796.611-.796.353 0 .96.177 2.372 1.536 1.611 1.611 1.876 2.199 2.784 2.199h2.9c.866 0 1.091-.563.88-1.687-.229-1.071-2.452-4.04-3.414-4.945-.262-.262-.648-.682-.072-1.328.02-.022 3.193-4.526 3.354-6.024z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
