@@ -54,10 +54,10 @@ header {
     align-items: center;
 }
 
-.logo, .logo-footer {
-    font-size: 24px;
+.logo {
+    font-size: 20px;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #333;
     letter-spacing: 1px;
 }
 
